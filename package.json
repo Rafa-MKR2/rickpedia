@@ -15,7 +15,8 @@
     "consign": "^0.1.6",
     "express": "^4.16.4",
     "path": "^0.12.7",
-    "firebase-admin": "^7.2.0"
+    "firebase-admin": "^7.2.0",
+    "typescript": "~2.9.2",
     "@angular/cli": "1.7.3"",
     "@angular/compiler-cli": "^5.2.0" 
     
