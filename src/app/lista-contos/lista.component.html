@@ -1,0 +1,25 @@
+
+<div *ngIf="!Inputlista.length">
+    <br><br>
+    <p class="text-center text-muted" >
+      Não há, nada relacionado a sua pesquisa! 
+    </p>
+</div>
+
+<br><br>
+
+<ol class="list-unstyled">
+    <li class="row" *ngFor="let cols of rows">
+        <div class="col" *ngFor="let card of cols">
+         <app-card-audio
+                [src]="card.image"
+                [name]="card.name"
+                [species]="card.species"
+                [gender]="card.gender"
+                [status]="card.status">
+            </app-card-audio>
+        </div>
+    
+    </li>
+</ol>
+

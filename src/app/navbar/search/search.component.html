@@ -1,0 +1,7 @@
+<form class="form-inline my-2 my-lg-0 " onsubmit="event.preventDefault()">
+        <input 
+        class="form-control mr-sm-2"
+        type="search" placeholder="pesquisar..." 
+        aria-label="Search"
+        (keyup)="debounce.next($event.target.value)">
+</form>

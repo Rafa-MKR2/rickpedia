@@ -1,0 +1,4 @@
+<app-menu (searchText)="searchInput($event)"></app-menu>
+<div class="container">
+    <app-card-lista [Inputlista]="lista | filterByDescription:filter"></app-card-lista>
+</div>
