@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "postinstall": "ng build --aot -prod"
+    "postinstall": "ng build --prod"
 
   },
   "author": "Rafael D.carmo",
@@ -16,9 +16,9 @@
     "express": "^4.16.4",
     "path": "^0.12.7",
     "firebase-admin": "^7.2.0",
-    "typescript": "~2.9.2",
-    "@angular/cli": "1.7.3",
-    "@angular/compiler-cli": "^5.2.0" 
+    "typescript": "~2.7.2",
+    "@angular/cli": "~6.0.7",
+    "@angular/compiler-cli": "^6.0.3"
     
 
   },
