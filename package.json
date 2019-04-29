@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "postinstall": "ng build --aot -prod"
+
   },
   "author": "Rafael D.carmo",
   "license": "ISC",
@@ -12,6 +14,13 @@
     "body-parser": "^1.18.3",
     "consign": "^0.1.6",
     "express": "^4.16.4",
+    "path": "^0.12.7",
     "firebase-admin": "^7.2.0"
-  }
+    "@angular/cli": "1.7.3"",
+    "@angular/compiler-cli": "^5.2.0" 
+    
+
+  },
+  "engine": { "node": "8.10.0", "npm": "5.6.0" }
+
 }
